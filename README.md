@@ -18,7 +18,7 @@ Building the project should result in this:
 	[INFO] Scanning for projects...
 	[INFO]                                                                         
 	[INFO] ------------------------------------------------------------------------
-	[INFO] Building locale-api 1.0.0
+	[INFO] Building locale-api 4.2
 	[INFO] ------------------------------------------------------------------------
 	[INFO] 
 	[INFO] --- android-maven-plugin:3.6.0:generate-sources (default-generate-sources) @ locale-api ---
@@ -56,14 +56,14 @@ Building the project should result in this:
 	[INFO] Building jar: C:\PROJECTS\Android\Locale\display\locale-api\target\locale-api.apklib
 	[INFO] 
 	[INFO] --- maven-install-plugin:2.4:install (default-install) @ locale-api ---
-	[INFO] Installing C:\PROJECTS\Android\Locale\display\locale-api\target\locale-api.apklib to C:\Users\Davy\.m2\repository\com\twofortyfouram\locale-api\1.0.0\locale-api-1.0.0.apklib
-	[INFO] Installing C:\PROJECTS\Android\Locale\display\locale-api\pom.xml to C:\Users\Davy\.m2\repository\com\twofortyfouram\locale-api\1.0.0\locale-api-1.0.0.pom
+	[INFO] Installing C:\PROJECTS\Android\Locale\display\locale-api\target\locale-api.apklib to C:\Users\Davy\.m2\repository\com\twofortyfouram\locale-api\4.2\locale-api-4.2.apklib
+	[INFO] Installing C:\PROJECTS\Android\Locale\display\locale-api\pom.xml to C:\Users\Davy\.m2\repository\com\twofortyfouram\locale-api\4.2\locale-api-4.2.pom
 	[INFO] ------------------------------------------------------------------------
 	[INFO] BUILD SUCCESS
 	[INFO] ------------------------------------------------------------------------
-	[INFO] Total time: 4.933s
-	[INFO] Finished at: Wed Aug 14 12:45:23 CEST 2013
-	[INFO] Final Memory: 24M/354M
+	[INFO] Total time: 4.538s
+	[INFO] Finished at: Wed Aug 14 12:53:42 CEST 2013
+	[INFO] Final Memory: 20M/353M
 	[INFO] ------------------------------------------------------------------------
 
 This will result in the Locale API APK Library artifact (apklib) to be put in your local maven repository.
@@ -72,7 +72,7 @@ You can then use this library dependency in your own projects like this:
 	<dependency>
 		<groupId>com.twofortyfouram</groupId>
 		<artifactId>locale-api</artifactId>
-		<version>1.0.0</version>
+		<version>4.2</version>
 		<packaging>apklib</packaging>
 	</dependency>	
 	 
