@@ -73,7 +73,7 @@ You can then use this library dependency in your own projects like this:
 		<groupId>com.twofortyfouram</groupId>
 		<artifactId>locale-api</artifactId>
 		<version>4.2</version>
-		<packaging>apklib</packaging>
+		<type>apklib</type>
 	</dependency>	
 	 
 ##Android library projects
